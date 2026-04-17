@@ -107,7 +107,3 @@ Omit `--dot`; the tool prints an indented tree to the terminal (one section per 
 - **Snapshot**: collects for `--duration` seconds (or `--static-only` first data), then exits. Re-run to refresh.
 - **Graph** is built from **parent → child** edges only; it does not validate transform consistency or timestamps.
 - Topic strings must match your **actual** Fast DDS topic names (check Foxglove / `ros2 topic list` on a bridge).
-
-## License
-
-MIT (see `LICENSE` if present; otherwise treat as MIT for internal use).
